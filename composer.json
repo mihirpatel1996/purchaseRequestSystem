@@ -1,0 +1,10 @@
+{
+    "name": "mpatel/purchase-request-portal",
+    "authors": [
+        {
+            "name": "mihirpatelSignalChem",
+            "email": "mpatel@signalchemcorp.com"
+        }
+    ],
+    "require": {}
+}
