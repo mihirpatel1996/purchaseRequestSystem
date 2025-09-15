@@ -182,6 +182,44 @@
             margin: 1.5rem 0;
             border-bottom: 2px solid #dee2e6;
         }
+
+        /* Update these styles in the existing <style> section. This section is to increase height when Vendor dropdown is shown */
+        .pr-items-table {
+            font-size: 0.8rem;
+            min-height: 200px; /* Base minimum height */
+        }
+
+        .searchable-dropdown-menu.show + .table-responsive {
+            min-height: 500px; /* Increased height when dropdown is shown */
+        }
+
+        .searchable-dropdown-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            z-index: 1050;
+            display: none;
+            background-color: white;
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+            max-height: 300px;
+            overflow: hidden;
+            margin-top: 2px;
+        }
+
+        /* Add this new style */
+        .modal-dialog.modal-xl {
+            max-height: 90vh;
+            margin: 20px auto;
+        }
+
+        .modal-body {
+            max-height: calc(90vh - 120px);
+            overflow-y: auto;
+        }
+        
     </style>
 </head>
 
